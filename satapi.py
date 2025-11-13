@@ -3,7 +3,7 @@ import os
 
 
 USERNAME = "hsksimp2@liverpool.ac.uk"
-PASSWORD = "Sentinal!-123"
+PASSWORD = "*********"
 
 # CDSE API endpoint
 BASE_URL = "https://catalogue.dataspace.copernicus.eu/odata/v1/Products"
