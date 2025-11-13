@@ -1,5 +1,4 @@
 import requests
-import json
 import os
 
 
@@ -13,7 +12,7 @@ START_DATE = "2018-01-01T00:00:00Z"
 END_DATE   = "2024-01-05T23:59:59Z"
 
 AREA_WKT = (
-    "POLYGON((-3 55, -0.5 50, 6.5 54.0, 2 53.0, -3 55))"
+    "POLYGON((-10 59, 7 50, 6.5 59, 2 53.0, -10 55))"
 )
 
 DOWNLOAD_DIR = "./s3_altimetry_downloads"
@@ -41,9 +40,6 @@ products = data.get("value", [])
 
 print(f"Found {len(products)} products.\n")
 
-# -----------------------------
-# 2. DOWNLOAD EACH PRODUCT
-# -----------------------------
 
 for prod in products:
     prod_id = prod["Id"]
