@@ -2,9 +2,6 @@ import requests
 import json
 import os
 
-# -----------------------------
-# CONFIGURATION
-# -----------------------------
 
 USERNAME = "hsksimp2@liverpool.ac.uk"
 PASSWORD = "Sentinal!-123"
